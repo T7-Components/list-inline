@@ -22,13 +22,14 @@
   "scripts": {
     "clean": "rimraf build && rimraf dist",
     "transpile": "babel source -d dist --copy-files",
-    "prebuild": "npm run clean && npm run test",
+    "xprebuild": "npm run clean && npm run test",
+    "prebuild": "npm run clean",
     "build": "webpack --mode production && npm run transpile",
     "prepublishOnly": "npm run build",
     "lint": "eslint 'source/**/*.js' --fix",
     "pretest": "npm run lint",
-    "test": "jest --coverage",
-    "prepush": "npm test",
+    "xtest": "jest --coverage",
+    "xprepush": "npm test",
     "postmerge": "npm install",
     "start": "webpack-dev-server --mode development --open"
   },
