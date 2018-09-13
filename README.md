@@ -1,11 +1,11 @@
-# listinline
+# list-inline
 
 Create a horizontal, in-line list from an unordered list
 
 ## Usage
 ```js
-import ListInline from '@t7/listinline'
-import '@t7/listinline/dist/index.css'
+import ListInline from '@t7/list-inline'
+import '@t7/list-inline/dist/index.css'
 ```
 ```js
 /* create your list as a single logical grouping */
@@ -25,9 +25,9 @@ import '@t7/listinline/dist/index.css'
 &nbsp;
 
 ### Note regarding the use of the _required_ CSS
-_*if your build process will not resolve the CSS in a module copy the file `@t7/listinline/dist/index.css` from the node_modules folder and reference the copy with an HTML link *_  
+_*if your build process will not resolve the CSS in a module copy the file `@t7/list-inline/dist/index.css` from the node_modules folder and reference the copy with an HTML link *_  
   
 ```html
 e.g.
-<link rel="stylesheet" type="text/css" href="<your stylesheet folder>/@t7/listinline/dist/index.css">
+<link rel="stylesheet" type="text/css" href="<your stylesheet folder>/@t7/list-inline/dist/index.css">
 ```
