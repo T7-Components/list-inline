@@ -34,5 +34,5 @@ _*if your build process will not resolve the CSS in a module copy the file `@t7/
   
 ```html
 e.g.
-<link rel="stylesheet" type="text/css" href="<your stylesheet folder>/@t7/list-inline/dist/index.css">
+<link rel="stylesheet" href="<your stylesheet folder>/@t7/list-inline/dist/index.css">
 ```
