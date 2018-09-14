@@ -1,6 +1,11 @@
 # list-inline
 
-Create a horizontal, in-line list from an unordered list
+Create a horizontal in-line list from an unordered list
+
+## Installation
+```js
+npm install @t7/list-inline --save-dev
+```
 
 ## Usage
 ```js
