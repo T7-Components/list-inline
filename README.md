@@ -1,4 +1,4 @@
-# list-inline
+# @t7/list-inline
 
 Create a horizontal in-line list from an unordered list
 
