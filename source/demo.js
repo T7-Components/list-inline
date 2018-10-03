@@ -15,7 +15,7 @@ class Demo extends React.Component {
     // Expose UI.
     return (
       <React.Fragment>
-        <h1>@t7/render</h1>
+        <h1>@t7/lint-inline</h1>
 
         <p>
           <a href='https://github.com/t7-components/list-inline/blob/master/source/demo.js'>
