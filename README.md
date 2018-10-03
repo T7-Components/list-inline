@@ -4,7 +4,7 @@ Create a horizontal in-line list from an unordered list
 
 ## Installation
 ```js
-npm install @t7/list-inline --save-dev
+npm install @t7/list-inline --save
 ```
 
 ## Usage
@@ -30,8 +30,8 @@ import '@t7/list-inline/dist/index.css'
 &nbsp;
 
 ### Note regarding the use of the _required_ CSS
-_*if your build process will not resolve the CSS in a module copy the file `@t7/list-inline/dist/index.css` from the node_modules folder and reference the copy with an HTML link *_  
-  
+_*if your build process will not resolve the CSS in a module copy the file `@t7/list-inline/dist/index.css` from the node_modules folder and reference the copy with an HTML link *_
+
 ```html
 e.g.
 <link rel="stylesheet" href="<your stylesheet folder>/@t7/list-inline/dist/index.css">
