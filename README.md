@@ -36,3 +36,8 @@ _*if your build process will not resolve the CSS in a module copy the file `@t7/
 e.g.
 <link rel="stylesheet" type="text/css" href="<your stylesheet folder>/@t7/list-inline/dist/index.css">
 ```
+
+
+Demo page:
+
+https://t7-components.github.io/list-inline/build/
