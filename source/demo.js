@@ -18,7 +18,7 @@ class Demo extends React.Component {
         <h1>@t7/render</h1>
 
         <p>
-          <a href='https://github.com/t7-components/linst-inline/blob/master/source/demo.js'>
+          <a href='https://github.com/t7-components/list-inline/blob/master/source/demo.js'>
             View "demo.js" on GitHub
           </a>
         </p>
