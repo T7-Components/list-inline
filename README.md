@@ -1,6 +1,6 @@
 # @t7/list-inline
 
-Create a horizontal in-line list from an unordered list
+Create a React horizontal in-line list from an unordered list
 
 ## Installation
 ```js
